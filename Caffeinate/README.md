@@ -12,8 +12,7 @@ The above calls `caffeinate` in the system's shell, evaluates `longComputation[1
 If the computation is terminated by an abort, e.g. by pressing <kbd>command</kbd><kbd>.</kbd>, the `caffeinate` process is still killed due to the use of `WithCleanup` internally, which protects parts of the computation against aborts. For example,
 ```
 Caffeinate[longComputation[10]]
-```
-```
+
 $Aborted (* caffeinate process killed nonetheless *)
 ```
 ------
