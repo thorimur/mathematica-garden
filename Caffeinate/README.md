@@ -35,7 +35,7 @@ longComputation[60] // Caffeinate[Quantity[1, "Hours"]] (* Caffeinates for at mo
 -----
 If something unusual happens, you can call `Decaffeinate[]` to kill all `caffeinate` processes via shell's `killall`:
 ```
-Do[ExternalEvaluate["Shell", "caffeinate"], {3}]
+Do[ExternalEvaluate["Shell", "caffeinate &"], {3}]
 
 Decaffeinate[] (* Prints each kill operation performed *)
 
