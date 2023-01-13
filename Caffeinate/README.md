@@ -19,8 +19,9 @@ $Aborted (* caffeinate process killed nonetheless *)
 ------
 A maximum time can be specified by either the option `MaxTime` or, if providing a time specification explicitly, via `Caffeinate[t][comp]` or `comp // Caffeinate[t]` syntax.
 ```
-Caffeinate[longComputation[10], MaxTime -> 60] (* Calls `caffeinate -t 60` and caffeinates for at most 60 seconds; kills the caffeinate process if still running once `longComputation[10]` finishes *)
+Caffeinate[longComputation[10], MaxTime -> 60]
 ```
+The above calls `caffeinate -t 60` and caffeinates for at most 60 seconds. It kills the caffeinate process if it's still running once `longComputation[10]` finishes. (We make sure that the process we're killing is still `caffeinate -t 60` in case the caffeinate process ended and the `pid` got reused for something else.)
 ```
 longComputation[10] // Caffeinate[5] (* Equivalent to the prior expression *)
 ```
