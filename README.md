@@ -24,5 +24,6 @@ Each folder also contains a `README.md` giving some context to the notebook or p
 
 ### Packages
 
+* TemplatePackage – A template package! Use it to grow new packages.
 * Caffeinate – Wrap long computations in `Caffeinate` to keep your computer awake for their duration. (Likely only works on Unix systems with a standard shell.)
 * IMDb – Code to scrape the IMDb site for episode-length stats on TV shows. Proof of concept only—do not use, or IMDb will be upset with you.
