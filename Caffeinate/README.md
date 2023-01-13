@@ -4,6 +4,8 @@
 longComputation[t_] := (Pause[t]; {1, 2, 3})
 
 Caffeinate[longComputation[10]]
+
+(* Out: {1, 2, 3} *)
 ```
 The above calls `caffeinate` in the system's shell, evaluates `longComputation[10]` (which takes about `10` seconds to complete and returns `{1, 2, 3}`), then kills the process.
 
