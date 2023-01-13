@@ -15,7 +15,6 @@ Caffeinate[longComputation[10]]
 
 $Aborted (* caffeinate process killed nonetheless *)
 ```
-------
 A maximum time can be specified by either the option `MaxTime` or, if providing a time specification explicitly, via `Caffeinate[t][comp]` or `comp // Caffeinate[t]` syntax.
 ```
 Caffeinate[longComputation[10], MaxTime -> 60]
