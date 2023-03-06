@@ -24,10 +24,18 @@ The `media` folder holds exported media from the notebook or package which I dis
 
 ### Notebooks
 
-* Robot arm – a dynamically interactive jointed robotic arm, with explanations and visualizations for how the successive coordinate systems of each joint are constructed.
+* Gilbreath's conjecture – visualization of [Gilbreath's conjecture](https://en.wikipedia.org/wiki/Gilbreath%27s_conjecture).
+* Reversible Bitfuck – visualization of the evaluation of an [RBF machine](https://esolangs.org/wiki/Reversible_Bitfuck), an esolang derived from [Brainfuck](https://en.wikipedia.org/wiki/Brainfuck).
+
+***Next up:***
+
+* Robot arm – a dynamically interactive jointed robotic arm, with explanations and visualizations for how the successive coordinate systems of each joint are constructed. (Class project from university.)
 
 ### Packages
 
-* TemplatePackage – A template package! Use it to grow new packages.
 * Caffeinate – Wrap long computations in `Caffeinate` to keep your computer awake for their duration. (Likely only works on Unix systems with a standard shell.)
-* IMDb – Code to scrape the IMDb site for episode-length stats on TV shows. Proof of concept only—do not use, or IMDb will be upset with you.
+
+***Next up:***
+
+* IMDb – Code to scrape the IMDb site for episode-length stats on TV shows. Proof of concept only, for personal use—do not use, or IMDb will be upset with you.
+* TemplatePackage – A template package! Use it to grow new packages.
