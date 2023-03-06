@@ -4,6 +4,8 @@
 
 Here, I grow a little collection of notebooks and packages. You're welcome to poke around; let me walk you through the layout.
 
+Keep in mind this is a work-in-progress—I'm slowly transplanting my old projects here one-by-one, after years of growing them inside. There's a lot more to come!
+
 ## Layout
 
 Each notebook or package is located in its own folder at the top level.
