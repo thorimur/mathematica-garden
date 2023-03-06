@@ -18,6 +18,8 @@ Package files (`*.wl` or `*.m`) are more amenable to being viewed in github dire
 
 Each folder also contains a `README.md` giving some context to the notebook or package—when is it from, what became of it, etc. Some packages and notebooks are WIPs, or from a while ago, or served a specific purpose. All that is in the `README`.
 
+The `media` folder holds exported media from the notebook or package which I display in the `README`.
+
 ## Directory
 
 ### Notebooks
