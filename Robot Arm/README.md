@@ -1,6 +1,6 @@
 This is a notebook from a midterm project for a robotics class I audited in university. The task was to simulate a robotic arm in a programming language of our choice.
 
-![A gif of a cartoonish sequence of linked cylinders rotating at the places they join each other.](media/arm1.gif)
+<img src="media/arm1.gif" alt-text="A gif of a cartoonish sequence of linked cylinders rotating at the places they join each other." loop=infinite>
 
 The interesting part here has to do with how we 1) parameterize the robot itself 2) construct the coordinate systems at each joint and translate between them.
 
