@@ -26,14 +26,15 @@ The `media` folder holds exported media from the notebook or package which I dis
 
 * [Gilbreath's conjecture](Gilbreath\'s%20conjecture) – a colorful visualization of [Gilbreath's conjecture](https://en.wikipedia.org/wiki/Gilbreath%27s_conjecture).
 * [Reversible Bitfuck](Reversible%20Bitfuck) – visualization of the evaluation history of [reversible bitfuck](https://esolangs.org/wiki/Reversible_Bitfuck), an esolang derived from [Brainfuck](https://en.wikipedia.org/wiki/Brainfuck).
+* [Robot arm](Robot%20arm) – a dynamically interactive jointed robotic arm, with explanations and visualizations for how the successive coordinate systems of each joint are constructed. (Midterm project from university.)
 
 ***Next up:***
 
-* Robot arm – a dynamically interactive jointed robotic arm, with explanations and visualizations for how the successive coordinate systems of each joint are constructed. (Class project from university.)
+* Qubits – a visualization of qubit states.
 
 ### Packages
 
-* [Caffeinate](Caffeinate) – Wrap long computations in `Caffeinate` to keep your computer awake for their duration. (Likely only works on Unix systems with a standard shell.)
+* [Caffeinate](Caffeinate) – Wrap long computations in `Caffeinate` to keep your computer awake for their duration. (Likely only works on Unix systems with a standard shell.) And don't worry about leaving `caffeinate` processes running on your computer afterwards, either.
 
 ***Next up:***
 
