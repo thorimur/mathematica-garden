@@ -55,3 +55,7 @@ We can also adjust the parameters manually in a different view.
 https://user-images.githubusercontent.com/68410468/223624956-9ea0eb26-42b9-41bf-a287-7e6a92c97145.mp4
 
 And we can also export gifs like the one at the top of the page!
+
+<img src="robot-arm-6.gif" alt="A gif like the one at the top of the page, but looping" width="400">
+
+<img src="robot-arm-3.gif" alt="A gif like the one at the top of the page, but with 4 segments" width="400">
