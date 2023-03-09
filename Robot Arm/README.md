@@ -56,6 +56,6 @@ https://user-images.githubusercontent.com/68410468/223624956-9ea0eb26-42b9-41bf-
 
 And we can also export gifs like the one at the top of the page!
 
-<img src="robot-arm-6.gif" alt="A gif like the one at the top of the page, but looping" width="400">
+<img src="media/robot-arm-6.gif" alt="A gif like the one at the top of the page, but looping" width="400">
 
-<img src="robot-arm-3.gif" alt="A gif like the one at the top of the page, but with 4 segments" width="400">
+<img src="media/robot-arm-3.gif" alt="A gif like the one at the top of the page, but with 4 segments" width="400">
