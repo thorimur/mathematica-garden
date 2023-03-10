@@ -39,7 +39,7 @@ That's the cool thing about reversible bitfuck: if a given program $p$ is run on
 
 It's an inverse in a very strong sense: the steps in the evaluation history of $p$ are in correspondence with the steps of $p^*$.
 
-We compute $p^*$ by simply reversing the program string and flipping the direction of each directed operator (namely, `<` is exchanged with `>`, and `(` is exchanged with `)`).
+We compute $p^*$ from $p$ by simply reversing the program string and flipping the direction of each directed operator (namely, `<` is exchanged with `>`, and `(` is exchanged with `)`).
 
 Here's a demonstration of the reversibility in action. We run $p=$`>*(*)(>*>*)` top-to bottom on the left, and run $p^*=$`(*<*<)(*)*<` bottom-to-top on the right. Notice that the tape is in the same state on both sides, and the instruction pointer hovers over the corresponding character in the inverse program.
 
