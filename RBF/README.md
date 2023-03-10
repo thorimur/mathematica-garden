@@ -37,7 +37,7 @@ We also have a "delicate" style that's a little less bold. (Still working out ho
 
 That's the cool thing about reversible bitfuck: if a given program $p$ is run on an initial tape state of $t_0$ and halts leaving the tape (and tape head) in state $t_1$, then there is a program $p^*$ which, when run on $t_1$, will halt and leave the tape in state $t_0$.
 
-It's an inverse in a very strong sense: each step in the evaluation history of $p$ is in correspondence with the steps of $p^*$.
+It's an inverse in a very strong sense: the steps in the evaluation history of $p$ are in correspondence with the steps of $p^*$.
 
 We compute $p^*$ by simply reversing the program string and flipping the direction of each directed operator (namely, `<` is exchanged with `>`, and `(` is exchanged with `)`).
 
